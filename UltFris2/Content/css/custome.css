@@ -1,0 +1,51 @@
+﻿.index {
+    margin-top: 10px;
+}
+
+.fields {
+    margin: 0px 10px 10px 0px;
+}
+
+
+.tablestuff {
+    height:500px;
+    overflow:auto;
+}
+
+.theButtons {
+    margin-bottom:10px;
+}
+
+label {
+    margin-top: 5px;
+}
+
+.selector{
+    margin-top: 100px;
+}
+
+
+.label-as-badge {
+    border-radius: 1em;
+}
+
+.scroll-class{   
+    height: 225px;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+
+
+.clickMatch{
+    cursor: pointer
+}
+
+.clickMatch:hover{
+    background-color:burlywood;
+    color:red;
+}
+
+.clickMatch:active{
+    background-color:blue;
+    color:white;
+}

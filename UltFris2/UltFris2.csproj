@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{785FCA98-99AC-43BE-8D0D-1D6FC4D50A30}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UltFris2</RootNamespace>
+    <AssemblyName>UltFris2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\app\angular\angular-animate.min.js.map" />
+    <Content Include="Content\app\angular\angular-cookies.min.js.map" />
+    <Content Include="Content\app\angular\angular-loader.min.js.map" />
+    <Content Include="Content\app\angular\angular-resource.min.js.map" />
+    <Content Include="Content\app\angular\angular-route.min.js.map" />
+    <Content Include="Content\app\angular\angular-touch.min.js.map" />
+    <Content Include="Content\app\firebase\angularfire.min.js" />
+    <Content Include="Content\app\firebase\firebase.js" />
+    <Content Include="Content\app\lib\toastr.min.js.map" />
+    <Content Include="Content\app\services\service.firebase.js" />
+    <Content Include="Content\app\services\service.players.js" />
+    <Content Include="Content\app\services\service.queue.js" />
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\app\angular\angular-animate.min.js" />
+    <Content Include="Content\app\angular\angular-cookies.min.js" />
+    <Content Include="Content\app\angular\angular-loader.min.js" />
+    <Content Include="Content\app\angular\angular-resource.min.js" />
+    <Content Include="Content\app\angular\angular-route.min.js" />
+    <Content Include="Content\app\angular\angular-touch.min.js" />
+    <Content Include="Content\app\angular\angular.js" />
+    <Content Include="Content\app\angular\angular.min.js" />
+    <Content Include="Content\app\app.js" />
+    <Content Include="Content\app\controllers\controller.broker.js" />
+    <Content Include="Content\app\controllers\indexController.js" />
+    <Content Include="Content\app\lib\custom.js" />
+    <Content Include="Content\app\lib\domReady.js" />
+    <Content Include="Content\app\lib\jquery-2.1.4.min.js" />
+    <Content Include="Content\app\lib\require.js" />
+    <Content Include="Content\app\lib\toastr.min.js" />
+    <Content Include="Content\app\main.js" />
+    <Content Include="Content\app\ng-bootstrap\ui-bootstrap-0.14.2.js" />
+    <Content Include="Content\app\ng-bootstrap\ui-bootstrap-tpls-0.14.2.js" />
+    <Content Include="Content\app\ng-bootstrap\ui-bootstrap-tpls-0.14.2.min.js" />
+    <Content Include="Content\app\ng-deps.js" />
+    <Content Include="Content\app\providers\router.js" />
+    <Content Include="Content\app\services\service.broker.js" />
+    <Content Include="Content\app\views\main.html" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\custome.css" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\ng-scrollbar.css" />
+    <Content Include="Content\css\ng-scrollbar.min.css" />
+    <Content Include="Content\css\skins\skin-black-light.css" />
+    <Content Include="Content\css\skins\skin-black-light.min.css" />
+    <Content Include="Content\css\skins\skin-black.css" />
+    <Content Include="Content\css\skins\skin-black.min.css" />
+    <Content Include="Content\css\skins\skin-blue-light.css" />
+    <Content Include="Content\css\skins\skin-blue-light.min.css" />
+    <Content Include="Content\css\skins\skin-blue.css" />
+    <Content Include="Content\css\skins\skin-blue.min.css" />
+    <Content Include="Content\css\skins\skin-green-light.css" />
+    <Content Include="Content\css\skins\skin-green-light.min.css" />
+    <Content Include="Content\css\skins\skin-green.css" />
+    <Content Include="Content\css\skins\skin-green.min.css" />
+    <Content Include="Content\css\skins\skin-purple-light.css" />
+    <Content Include="Content\css\skins\skin-purple-light.min.css" />
+    <Content Include="Content\css\skins\skin-purple.css" />
+    <Content Include="Content\css\skins\skin-purple.min.css" />
+    <Content Include="Content\css\skins\skin-red-light.css" />
+    <Content Include="Content\css\skins\skin-red-light.min.css" />
+    <Content Include="Content\css\skins\skin-red.css" />
+    <Content Include="Content\css\skins\skin-red.min.css" />
+    <Content Include="Content\css\skins\skin-yellow-light.css" />
+    <Content Include="Content\css\skins\skin-yellow-light.min.css" />
+    <Content Include="Content\css\skins\skin-yellow.css" />
+    <Content Include="Content\css\skins\skin-yellow.min.css" />
+    <Content Include="Content\css\skins\_all-skins.css" />
+    <Content Include="Content\css\skins\_all-skins.min.css" />
+    <Content Include="Content\css\toastr.min.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\pics\boxed-bg.jpg" />
+    <Content Include="Content\pics\boxed-bg.png" />
+    <Content Include="Content\pics\default-50x50.gif" />
+    <Content Include="Content\pics\icons.png" />
+    <Content Include="Content\pics\Schedule.png" />
+    <Content Include="index.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\app\templates\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>34194</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:34194/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

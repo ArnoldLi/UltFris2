@@ -1,0 +1,6 @@
+D:\Development\Projects\UltFris2\UltFris2\bin\UltFris2.dll.config
+D:\Development\Projects\UltFris2\UltFris2\bin\UltFris2.dll
+D:\Development\Projects\UltFris2\UltFris2\bin\UltFris2.pdb
+D:\Development\Projects\UltFris2\UltFris2\obj\Debug\UltFris2.csprojResolveAssemblyReference.cache
+D:\Development\Projects\UltFris2\UltFris2\obj\Debug\UltFris2.dll
+D:\Development\Projects\UltFris2\UltFris2\obj\Debug\UltFris2.pdb
