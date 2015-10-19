@@ -1,20 +1,20 @@
 ﻿define(['service-broker'], function (svcModule) {
-    svcModule.factory('queueSvc', ['$http', function ($http) {
+    svcModule.factory('listSvc', ['$http', function ($http) {
 
-        var queue = [];
+        var list = [];
 
         var factory = {
-            getPlayers: function (applicationNum, deferred) {
-                $http.get('https://ultfris.firebaseio.com/queue.json')
+            getList: function (type, deferred) {
+                $http.get('https://ultfris.firebaseio.com/' + type + '.json')
                     .success(function (res) {
                         deferred.resolve(res);
                     }).error(deferred.reject);
             }
         };
 
-        Object.defineProperty(factory, 'queue', {
+        Object.defineProperty(factory, 'list', {
             get: function () {
-                return queue;
+                return list;
             }
         });
 

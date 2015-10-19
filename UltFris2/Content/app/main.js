@@ -19,9 +19,9 @@
 
         'indexController': 'controllers/indexController',
 
-        'playerSvc': 'services/service.players',
-        'queueSvc': 'services/service.queue',
-        'firebaseSvc': 'services/service.firebase'
+        'listSvc': 'services/service.list',
+
+        'firebaseListSvc': 'services/service.firebaseList'
 
 
     },
@@ -49,10 +49,6 @@
             exports: 'toastr',
             deps: ['jquery']
         },
-        //'firebase':
-        //{
-        //    exports: 'firebase'
-        //},
         'ng-deps': ['angular-route', 'angular-resource', 'angular-ui', 'angularfire']
     }
 });

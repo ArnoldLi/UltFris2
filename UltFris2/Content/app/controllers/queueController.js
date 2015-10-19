@@ -1,4 +1,4 @@
-﻿define(['controller-broker'
+define(['controller-broker'
        , 'toastr'
        , 'firebase'
        , 'listSvc'       
@@ -6,7 +6,7 @@
 
 ], function (ctrlModule, toaster) {
 
-    ctrlModule.controller('indexController', function ($scope, $location, list, authenticate, firebaseListSvc) {
+    ctrlModule.controller('queueController', function ($scope, $location, list, authenticate, firebaseListSvc) {
         $scope.test = list;
         $scope.hello = 'hello world';
 
@@ -17,6 +17,8 @@
            console.log("added record with id " + id);
            list.$indexFor(id); // returns location in the array
         });
+
+        
     });
 
 });
