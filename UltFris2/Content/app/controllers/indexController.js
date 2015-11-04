@@ -18,7 +18,7 @@ define(['controller-broker'
            list.$indexFor(id); // returns location in the array
         });
 
-        
+        var test = 1;
     });
 
 });
